@@ -6,8 +6,10 @@ import AddTodoForm from './AddTodoForm'
 function App() {
   return (
     <>
-      <TodoList />
+      <h1>Todo List</h1>
       <AddTodoForm />
+      <TodoList />
+
     </>
   )
 }
