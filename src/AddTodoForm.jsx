@@ -6,7 +6,6 @@ function AddTodoForm(props) {
         event.preventDefault();
 
         const todoTitle = event.target.elements.title.value;
-        console.log(todoTitle);
 
         props.onAddTodo(todoTitle);
 
